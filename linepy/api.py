@@ -8,7 +8,7 @@ import rsa, os
 
 class LineApi(object):
     isLogin     = False
-    authToken   = ""
+    authToken   = " "
     certificate = ""
 
     def __init__(self):
